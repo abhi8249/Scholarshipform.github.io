@@ -1,0 +1,56 @@
+
+.radio{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.imf{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.file{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.all{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f2f2f2;
+    padding:40px;
+}
+.btn{
+    background-color: blue;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea{
+ 
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      
+  }
+  .imf2{
+    margin-left: 19px;
+  }
+  h2{
+    font-family: 'Roboto Slab', serif;
+  }
+
